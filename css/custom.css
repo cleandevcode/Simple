@@ -34,14 +34,6 @@
     format("woff2");
 }
 
-@font-face {
-  font-family: "OpenSans";
-  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light") format("ttf"),
-    url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   background: #000 url("../img/bg.jpg") no-repeat center center fixed;
   background-size: cover;
