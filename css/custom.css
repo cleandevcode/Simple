@@ -1,0 +1,82 @@
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Circular-Loom";
+
+  src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Circular-Loom";
+
+  src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Circular-Loom";
+
+  src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Circular-Loom";
+
+  src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light") format("ttf"),
+    url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #000 url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.new .content {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.new h1 {
+  font-size: 50px;
+  line-height: 1.6;
+}
+
+.new h1,
+.new h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
